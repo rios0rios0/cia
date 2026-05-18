@@ -37,6 +37,7 @@ cia/
 │   ├── trees.obj / uncompr.obj    # /
 │   ├── installer.obj              # System installer object
 │   └── asm.obj                    # Additional assembly routines
+├── CHANGELOG.md                   # Project changelog (Keep a Changelog format)
 ├── Clear.bat                      # Deletes Delphi build artefacts (*.dcu, *.exe, *.map, …)
 ├── CONTRIBUTING.md                # Historical build notes
 ├── LICENSE                        # GNU GPL v3.0
