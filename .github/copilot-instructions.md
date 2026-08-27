@@ -201,7 +201,7 @@ Because this is an archived project, there is no active development workflow. If
 
 ## CI/CD Pipeline
 
-There is **no CI/CD pipeline** for this project. The repository has no GitHub Actions workflows, no automated tests, and no container configuration.
+There is **no build, test or deployment pipeline** for this project, and no container configuration. The only workflows are `.github/workflows/claude-review.yaml` and `.github/workflows/claude-mention.yaml`, which call the shared Claude reusable workflows in `rios0rios0/pipelines` and need the `CLAUDE_CODE_OAUTH_TOKEN` secret.
 
 ---
 
