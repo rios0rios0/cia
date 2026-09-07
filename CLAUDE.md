@@ -8,7 +8,7 @@ CIA (Coletor de Informacoes Automatico) is a discontinued (2014) educational Win
 
 ## Build
 
-Requires Borland Delphi 7. No build, test or lint automation; the only CI is the Claude review and `@claude` mention workflows.
+Requires Borland Delphi 7. No build, test or lint automation for the Delphi source itself. CI is a shared `checks` gate (`checks.yaml`) that enforces rebase status and the changelog-fragment rule on pull requests, plus the Claude review and `@claude` mention workflows.
 
 ```
 dcc32.exe CIA.dpr -U"External Uses;System" -E. -N.

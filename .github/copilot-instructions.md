@@ -201,7 +201,7 @@ Because this is an archived project, there is no active development workflow. If
 
 ## CI/CD Pipeline
 
-There is **no build, test or deployment pipeline** for this project, and no container configuration. The only workflows are `.github/workflows/claude-review.yaml` and `.github/workflows/claude-mention.yaml`, which call the shared Claude reusable workflows in `rios0rios0/pipelines` and need the `CLAUDE_CODE_OAUTH_TOKEN` secret.
+There is **no build, test or deployment pipeline** for the Delphi source itself, and no container configuration. Three workflows exist: `.github/workflows/checks.yaml` calls the shared `rios0rios0/pipelines` `checks.yaml` to enforce rebase status and the changelog-fragment rule on pull requests to `main`; `.github/workflows/claude-review.yaml` and `.github/workflows/claude-mention.yaml` call the shared Claude reusable workflows in `rios0rios0/pipelines` and need the `CLAUDE_CODE_OAUTH_TOKEN` secret.
 
 ---
 
