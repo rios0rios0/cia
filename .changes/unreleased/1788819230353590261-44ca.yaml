@@ -1,0 +1,3 @@
+kind: 'Changed'
+body: 'corrected the `chlog new` example in the AI-assistant instruction block of `CLAUDE.md` and `.github/copilot-instructions.md` to the neutral `<description>` placeholder that the `--breaking` example beside it already uses: changelog bodies here are written in simple past tense, and the `<imperative description>` wording kept drawing review comments asking for the opposite mood'
+time: '2026-09-07T22:13:50.353424792Z'
