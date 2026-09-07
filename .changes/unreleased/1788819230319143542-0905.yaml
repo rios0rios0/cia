@@ -1,3 +1,3 @@
 kind: 'Changed'
 body: 'refreshed `CLAUDE.md`, `.github/copilot-instructions.md`, and `.github/skills/code-review/SKILL.md` to document the `checks.yaml` CI gate and correct the credential-shape wording in the code-review skill'
-time: '2026-09-07T09:20:00.000000000Z'
+time: '2026-09-07T22:13:50.319062917Z'
