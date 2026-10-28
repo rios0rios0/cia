@@ -1,0 +1,3 @@
+kind: 'Changed'
+body: 'updated `.github/skills/code-review/SKILL.md` to reference `AGENTS.md` after the host renamed `CLAUDE.md` to `AGENTS.md`, keeping a `CLAUDE.md` that imports it'
+time: '2026-10-28T22:43:49.916252087Z'
