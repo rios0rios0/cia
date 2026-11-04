@@ -22,6 +22,12 @@ Exceptions are acceptable depending on the circumstances (critical bug fixes tha
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-11-04
+
+### Changed
+
+- updated `.github/skills/code-review/SKILL.md` to reference `AGENTS.md` after the host renamed `CLAUDE.md` to `AGENTS.md`, keeping a `CLAUDE.md` that imports it
+
 ## [1.4.1] - 2026-09-08
 
 ### Changed
